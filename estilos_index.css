@@ -1,15 +1,4 @@
-body{
-    width: 100%;
-    height: 3000px;
-    
-}
-.container-fon {
-    height: 100%;
-}
-
-.container__section-fon {
-    /* Take full size */
-    width: 100%;
+*{
 
 }
 .header {
@@ -33,5 +22,34 @@ width: 90px;
     width: 90%;
     margin: 20px 5% 20px 5%;   
     height: auto;
-    background-color: aquamarine;
+    background-color: rgb(127, 255, 212);
+}
+.links-navegador{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navs-links{
+    display: block;
+    padding: 0px;
+    margin: 20px;
+
+}
+.a-links{
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+}
+.a-links:hover{
+    color: black;
+    scale: 1.2;
+}
+.navs-links :hover{
+    display: block;
+    padding: 15px;
+    margin: 0px;
+    scale: 1.2;
+
 }
