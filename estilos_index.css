@@ -1,36 +1,49 @@
 *{
-
+    font-family: 'Fira Sans', sans-serif;
 }
-.header {
-    position: fixed;
+body{
     width: 100%;
+    height: 3000px;
+}
+header{
+    position: fixed;
     top: 0;
     right: 0;
+    left: 0;
+    background-color: transparent;
+
 }
 .flex-nav{
     display: flex;
+    margin: 0px 40px 0px 40px;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 
 }
+.Logo{
+    width: auto;
+    height: auto;
+}
 .imagen-logo-baner{
-width: 90px;
+    margin: 0px 40px 0px 40px;
+     width: 120px;
+
 }
 .header_nav{
-    display: flexbox;
-    width: 90%;
-    margin: 20px 5% 20px 5%;   
+    display:block;
+    width: 100%;
+    margin: 0;   
     height: auto;
-    background-color: rgb(127, 255, 212);
+    background-color: rgb(255, 255, 255);
 }
 .links-navegador{
-    padding: 0px;
-    margin: 0px;
+    width: auto;
+    height: 100%;
     display: flex;
     justify-content: end;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .navs-links{
     display: block;
@@ -39,17 +52,11 @@ width: 90px;
 
 }
 .a-links{
+    font-size: 22px;
     text-decoration: none;
-    color: rgb(22, 22, 22);
+    background-color: transparent;
+    color: rgb(51, 51, 51);
 }
 .a-links:hover{
-    color: black;
-    scale: 1.2;
-}
-.navs-links :hover{
-    display: block;
-    padding: 15px;
-    margin: 0px;
-    scale: 1.2;
-
+    color: rgb(0, 0, 0);
 }
