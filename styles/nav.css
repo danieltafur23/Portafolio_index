@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+body {
+    box-sizing: border-box;
+}
+.body{
+    background: #000000 url("https://besthqwallpapers.com/Uploads/30-3-2019/85336/thumb2-black-denim-texture-black-fabric-texture-black-background-fabric-backgrounds-denim-black-background.jpg") repeat local 0 0;
+}
+.main{
+    margin-top: 70px;
+}
+  
+.header {
+    background-color: #ffffff;
+    height: 11.5%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.mg1{
+      width: 100px;
+}
+.nav {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+  
+    margin: 0 2%;
+}
+  
+.nav-link {
+    color: rgb(0, 0, 0) !important;
+    text-decoration: none;
+}
+  
+.logo {
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.5%;
+}
+  
+.nav-menu {
+    display: flex;
+    margin-right: 0px 0.5%;
+    list-style: none;
+}
+  
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+  
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+  
+/* TOGGLE */
+.nav-toggle {
+    color: rgb(0, 0, 0);
+    background: none;
+    border: none;
+    font-size: 30px;
+    align-items: center;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+  
+    display: none;
+}
+
+
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: center;
+}
+.buttons a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: rgb(255, 255, 0);
+    color: #464646;
+    border-radius: 40%;
+    box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.5);
+    transition: all .4s ease-in-out;
+    margin: 0px 0.2%;
+    
+}
+.buttons a:hover {
+    transform: scale(1.2);
+    color: black;
+}
+
+
+  
+
+ /* MOBILE */ 
+ @media (max-width: 975px) {
+    body {
+        padding-top: 70px;
+        width: 100%;
+        height: auto;
+        
+    }
+    /*Header*/
+    .header {
+        width: 100%;
+        height: 60px;
+    }
+    .mg1{
+          margin: -10px 15px;
+          width: 80px;
+    }
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        top: 60px;
+        width: 100%;
+        padding: 10px 0;
+    
+        overflow-y: auto;
+    
+        left: 100%;
+        transition: left 0.5s;
+    }
+    .nav-menu-item {
+        line-height: 30px;
+    } 
+    .nav-menu-link:hover {
+        background: rgba(170, 170, 170, 0.425);
+        color: #ffffff;
+    }  
+    .nav-toggle {
+          margin: -5px 0px 0px 0px;
+        display: block;
+    }  
+    .nav-menu_visible {
+        left: 0;
+    }  
+    .nav-toggle:focus:not(:focus-visible) {
+        outline: none;
+    }
+    /*Fin Header*/
+}

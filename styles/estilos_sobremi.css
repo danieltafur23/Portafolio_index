@@ -1,0 +1,27 @@
+.main{
+    margin-top: 70px;
+}
+.sec-info{
+    display: flex;
+}
+.foto{
+    width: 50%;
+    height: auto;
+    margin-top: 40px;
+}
+.foto-perfil{
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 20%;
+    overflow: hidden;
+}
+.info-personal{
+    width: 50%;
+    height: auto;
+    margin-top: 45px;
+    padding: 30px;
+}
+
+footer{
+    margin-top: 60px;
+}
