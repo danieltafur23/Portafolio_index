@@ -59,6 +59,7 @@ flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: flex-end;
+    flex-direction: column;
 }
 .partes-2{
     display: block;
@@ -77,12 +78,11 @@ flex-direction: column;
 }
 .myButton {
     width: auto;
-    height: 30%;
+    height: 20%;
     margin-right: 20px;
     margin-bottom: 20px;
 	background-color:#ffec64;
-	border-radius:6px;
-	border:1px solid #ffaa22;
+	border-radius:16px;
 	display:inline-block;
     text-decoration: none;
 	cursor:pointer;

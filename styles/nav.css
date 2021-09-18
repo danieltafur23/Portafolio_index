@@ -38,6 +38,9 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   
 .nav-menu {
