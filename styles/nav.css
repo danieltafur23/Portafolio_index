@@ -1,21 +1,16 @@
 * {
-    margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
 }
 body {
     box-sizing: border-box;
 }
-.body{
+.fondo{
     background: #000000 url("https://besthqwallpapers.com/Uploads/30-3-2019/85336/thumb2-black-denim-texture-black-fabric-texture-black-background-fabric-backgrounds-denim-black-background.jpg") repeat local 0 0;
-}
-.main{
-    margin-top: 70px;
-}
-  
+}  
 .header {
     background-color: #ffffff;
-    height: 11.5%;
+    height:auto;
     position: fixed;
     width: 100%;
     top: 0;
@@ -62,7 +57,10 @@ body {
     padding: 8px 12px;
     border-radius: 3px;
 }
-
+.footer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
   
 /* TOGGLE */
 .nav-toggle {
@@ -102,6 +100,10 @@ body {
 .buttons a:hover {
     transform: scale(1.2);
     color: black;
+}
+
+.white{
+    color: white;
 }
 
 

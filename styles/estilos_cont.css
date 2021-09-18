@@ -1,0 +1,28 @@
+.main{
+    margin-top: 112px;
+}
+.centrar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tamaño{
+    width: 80%;
+    height: auto;
+}
+.display-f{
+display: flex;
+}
+.form-group{
+    width: 80% !important;
+    height: auto;
+    margin-left: 0% !important;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.margenes{
+margin: 0 !important;
+}

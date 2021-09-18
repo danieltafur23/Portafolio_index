@@ -1,5 +1,5 @@
 .main{
-    margin-top: 165px;
+    margin-top: 125px;
 }
 .contenedor{
     width: 80%;
@@ -24,7 +24,7 @@
 }
 .text-leng{
     padding-left: 5%;
-    font-size: 40px;
+    font-size: 30px;
 }
 .seccion-leng-2{
     width: 50%;
@@ -83,9 +83,25 @@ align-items: flex-start;
     width: 90%;
     height: 30px;
 }
-
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .5rem 1rem;
+    color: #ffffff !important;
+    text-decoration: none;
+    background-color: transparent !important;
+    border-bottom: 1px solid #ffc107 !important;
+}
+.list-group{
+width: 80%;
+margin-left: 5%;
+}
 @media (max-width:768px) {
     .main{
         margin-top: 30px ;
     }    
+    .text-leng{
+        padding-left: 5%;
+        font-size: 20px;
+    }
 }
