@@ -2,6 +2,7 @@
     margin-top: 70px;
 }
 .sec-info{
+    width: 100%;
     display: flex;
 }
 .foto{
@@ -24,4 +25,12 @@
 
 footer{
     margin-top: 60px;
+}
+
+@media (max-width:768px) {
+    .sec-info{
+        width: 100vh;
+        display: flex;
+    }
+    
 }

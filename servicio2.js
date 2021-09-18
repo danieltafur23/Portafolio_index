@@ -18,7 +18,6 @@ fetch(uri,parametrosPeticion)
 })
 .then(function(respuesta){
     console.log(respuesta);
-
     obtenerToken(respuesta);
 
 })
